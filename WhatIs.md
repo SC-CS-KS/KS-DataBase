@@ -72,3 +72,22 @@ Storage Engine
 					Leveldb是单进程的服务，而且它只是一个 C/C++ 编程语言的库, 不包含网络服务封装
 			RocksDB
 ```
+
+## Utility
+```md
+OLTP
+OLAP
+	参考大数据分析
+OLPP
+		在线预测处理（online predictive processing，OLPP）
+		将OLTP、OLAP和机器学习集成到同一个平台上
+		Splice Machine
+			一个OLPP平台
+	场景
+		客户服务呼叫中心
+			通过电话、网络或移动应用等渠道，呼叫中心代理在接到订单后几秒内就对客户的查询做出响应。
+		个性化
+			使用机器学习模型，可以预测客户即将采取何种行动。
+		预测维护
+			使用机器学习模型，预测现场设备何时可能出现停机故障。
+```
