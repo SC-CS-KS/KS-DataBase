@@ -8,7 +8,7 @@
 
 ## [DB Model](db-model/README.md)
 ### RDBMS
-* [MySQL](mysql/README.md)
+* [MySQL](khttps://github.com/SunnnyChan/knowledge-Sys-of-MySQL)
 * [MariaDB](https://www.tuicool.com/articles/fUniAbQ)
 
 ### Key-value store
