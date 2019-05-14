@@ -8,18 +8,18 @@
 
 ## [DB Model](db-model/README.md)
 ### RDBMS
-* [MySQL](khttps://github.com/SunnnyChan/knowledge-Sys-of-MySQL)
+* [MySQL](https://github.com/SunnnyChan/knowledge-Sys-of-MySQL)
 * [MariaDB](https://www.tuicool.com/articles/fUniAbQ)
 
 ### Key-value store
-* [Redis](redis/README.md)
+* [Redis](z_KV/redis/README.md)
 
-### Search engine
-* Elasticsearch
-* Solr
+### [Search engine](z_SE/README.md)
+* [Elasticsearch](z_SE/ES/README.md)
+* [Solr](z_SE/solr/README.md)
 
 ### Wide column store
-* Hbase
+* [Hbase](z_Column-Store/hbase/README.md)
 
 ### Document store
 * MongoDB
@@ -34,16 +34,14 @@
 * [JDBC](/db-dev/jdbc/README.md)
 * [JDBC Connection-Pool](/db-dev/CP/README.md)
 * JPA
-
 ### Framework
 #### ORM
 * [Mybatis](db-dev/mybatis/README.md)
-
 * Sharding
 
-## Utility
+## Utils
 
-## [DB HA](db-HA/README.md)
+## [HA](db-HA/README.md)
 
 ## Resources
 * [DB-Engines Ranking](https://db-engines.com/en/ranking)
