@@ -1,6 +1,5 @@
 # Search engine
 
-
 * [Full-text Search](Full-text_Search.md)
 
 ## Implement

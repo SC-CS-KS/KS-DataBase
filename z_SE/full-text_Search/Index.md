@@ -15,7 +15,15 @@
 从非结构化数据中提取出的然后重新组织的信息。
 ```
 
-![](z_pic/Index.png)
+![](../z_pic/Index.png)
 * 词典
 * 倒排表 (Posting List)
+
+## 流程
+* 获取内容
+* 建立文档
+* 文档分析
+* [建立索引](index_create.md)
+
+
 
