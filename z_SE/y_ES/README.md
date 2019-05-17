@@ -9,7 +9,7 @@
 * 乐观并发控制
 * 使用外部系统的版本
 
-## [APIs](API.md)
+## [APIs](APIs/README.md)
 
 ## Plugins
 
