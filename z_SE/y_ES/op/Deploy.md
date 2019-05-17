@@ -180,3 +180,5 @@ curl -XGET 'http://localhost:9200/twitter/_search?pretty=true' -H 'Content-Type:
 }'
 ```
 * Multi Tenant – Indices and Types
+
+
