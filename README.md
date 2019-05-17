@@ -15,8 +15,8 @@
 * [Redis](z_KV/redis/README.md)
 
 ### [Search engine](z_SE/README.md)
-* [Elasticsearch](z_SE/ES/README.md)
-* [Solr](z_SE/solr/README.md)
+* [Elasticsearch](z_SE/y_ES/README.md)
+* [Solr](z_SE/y_solr/README.md)
 
 ### Wide column store
 * [Hbase](z_Column-Store/hbase/README.md)

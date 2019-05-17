@@ -11,6 +11,9 @@
 
 ## [APIs](API.md)
 
+## Plugins
+
+
 ## OP
 * [Deploy](op/Deploy.md)
 * [Kibana](Kibana/README.md)
@@ -20,3 +23,4 @@
 
 ## Reference
 * [Elasticsearch Reference](https://www.elastic.co/guide/en/elasticsearch/reference/6.0/index.html)
+* [深入详解Elasticsearch](https://blog.csdn.net/wojiushiwo987/column/info/deep-elasticsearch)
