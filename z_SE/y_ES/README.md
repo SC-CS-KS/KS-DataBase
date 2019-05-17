@@ -5,13 +5,20 @@
 ## Design
 * [索引]()
 * [检索]()
+* [多表关联](design/join/README.md)
+* [聚合](design/agg/README.md)
+
+* [Analyzer](design/analyzer/README.md)
+
 * [版本冲突](design/version-conflict.md)
-* [多表关联](design/join.md)
 
 ## Develop
 * [数据建模](dev/data_model.md)
 ### [APIs](APIs/README.md)
 * [ES Restful API ](APIS/restful.md)
+
+## [Cookbook](cookbook/README.md)
+* [词频统计](cookbook/wordcount.md)
 
 ## OP
 * [Deploy](op/Deploy.md)
@@ -34,7 +41,6 @@
 * [Kibana](utils/Kibana/README.md)
 
 ## Plugins
-* IK Analyzer 中文分词器
 
 ## SourceCode
 
@@ -44,6 +50,14 @@
 ## [HA](HA/README.md)
 * [Cluster](HA/Cluster.md)
 
+## Version
+* Elasticsearch 7.x
+> * [Elasticsearch 7.x Cheatsheet](http://elasticsearch-cheatsheet.jolicode.com/)
+
 ## Reference
 * [Elasticsearch Reference](https://www.elastic.co/guide/en/elasticsearch/reference/6.0/index.html)
+* [Elasticsearch: The Definitive Guide][【中文】](https://www.elastic.co/guide/cn/elasticsearch/guide/current/index.html)[【英文】](https://www.elastic.co/guide/en/elasticsearch/guide/master/index.html)
 * [深入详解Elasticsearch](https://blog.csdn.net/wojiushiwo987/column/info/deep-elasticsearch)
+* [Awesome Elasticsearch](https://github.com/dzharii/awesome-elasticsearch)
+
+* 《深入理解ElasticSearch》

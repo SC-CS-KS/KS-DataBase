@@ -1,6 +1,8 @@
 # 检索
 
-* 常用检错类型
+## [DLS](DSL/README.md)
+
+## 常用检错类型
 ```md
 * 精确匹配，类似mysql中的 “=”操作
 * 模糊匹配，类似mysql中的”like %关键词% “查询操作
@@ -279,10 +281,64 @@ GET / _search
 }
 ```
 #### 多字段匹配检索（ multi_match query）
-
-
+```md
+multi_match 查询为能在多个字段上反复执行相同查询提供了一种便捷方式。 
+默认情况下，查询的类型是 best_fields， 这表示它会为每个字段生成一个 match 查询。 
+```
+```md
+举例1：”fields”: “*_title” 
+——任何与模糊模式正则匹配的字段都会被包括在搜索条件中， 例如可以左侧的方式同时匹配 book_title 、 chapter_title 和 section_title （书名、章名、节名）这三个字段。 
+举例2： “fields”: [ “*_title”, “chapter_title^2” ] 
+——可以使用 ^ 字符语法为单个字段提升权重，在字段名称的末尾添加 ^boost ， 其中 boost 是一个浮点数。 
+举例3：”fields”: [ “first_name”, “last_name” ], 
+“operator”: “and” 
+——两个字段必须都包含。
+```
+```json
+GET /_search
+{
+  "query": {
+  "multi_match" : {
+  "query": "this is a test",
+  "fields": [ "subject", "message" ]
+  }
+  }
+}
+```
 #### 字符串检索(query_string）
-
+```md
+一个使用查询解析器解析其内容的查询。 
+query_string查询提供了以简明的简写语法执行多匹配查询 multi_match queries ，布尔查询 bool queries ，
+提升得分 boosting ，模糊匹配 fuzzy matching ，通配符 wildcards ，
+正则表达式 regexp 和范围查询 range queries 的方式。 
+支持参数达10几种。
+```
+```json
+GET /_search
+{
+  "query": {
+  "query_string" : {
+  "default_field" : "content",
+  "query" : "this AND that OR thus"
+  }
+  }
+}
+```
 #### 简化字符串检索（simple_query_string）
-
-#### 
+```md
+一个使用SimpleQueryParser解析其上下文的查询。 
+与常规query_string查询不同，simple_query_string查询永远不会抛出异常，并丢弃查询的无效部分。 
+```
+```json
+GET /_search
+{
+    "query": {
+        "simple_query_string" : {
+            "fields" : ["content"],
+            "query" : "foo bar -baz"
+        }
+    }
+}
+```
+## Reference
+* [Elasticsearch检索分类](https://blog.csdn.net/laoyang360/article/details/77623013)
