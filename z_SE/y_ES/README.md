@@ -3,6 +3,7 @@
 ## [What Is](WhatIs.md)
 
 ## Design
+
 ### 版本冲突
 * 悲观并发控制（PCC）
 * 乐观并发控制（OCC）
@@ -12,11 +13,16 @@
 ## [APIs](APIs/README.md)
 
 ## Plugins
-
+* [Kibana](Kibana/README.md)
+* IK Analyzer 中文分词器
+* [MySQL 同步插件](https://blog.csdn.net/laoyang360/article/details/51771621)
 
 ## OP
 * [Deploy](op/Deploy.md)
-* [Kibana](Kibana/README.md)
+
+## Extend
+
+
 
 ## Utils
 
