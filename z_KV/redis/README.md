@@ -5,8 +5,9 @@
 * [Redis DataType](design/datatype.md)
 
 ## Develop
-* [API](develop/API.md)
-> * Jedis
-> * Redisson
+
+## [API](develop/API.md)
+* Jedis
+* Redisson
 
 ## [HA](HA/README.md)
