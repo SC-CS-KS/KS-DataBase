@@ -8,5 +8,5 @@ MySQL官方对索引的定义为：索引（Index）是帮助MySQL高效获取�
 提取句子主干，就可以得到索引的本质：索引是数据结构。
  ```
  ## [查询算法](search_algo.md)
- ### 顺序查找（linear search ）
+
  
