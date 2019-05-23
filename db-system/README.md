@@ -6,8 +6,8 @@
 ## 概念
 * [TRANSACTION](transaction/README.md)
 
-* [INDEX](index/index.md)
-* [VIEW](view/view.md)
+* [INDEX](index/README.md)
+* [VIEW](view/README.md)
 
 
 * [Integrity （完整性）](Integrity.md)
