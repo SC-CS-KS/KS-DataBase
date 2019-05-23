@@ -10,22 +10,14 @@
 ### RDBMS
 * [MySQL](https://github.com/SunnnyChan/knowledge-Sys-of-MySQL)
 * [MariaDB](https://www.tuicool.com/articles/fUniAbQ)
-
 ### Key-value store
 * [Redis](z_KV/redis/README.md)
-
-### [Search engine](z_SE/README.md)
-* [Elasticsearch](z_SE/y_ES/README.md)
-* [Solr](z_SE/y_solr/README.md)
-
+### [Search Engine](https://github.com/SunnnyChan/knowledge-Sys-of-SE)
 ### Wide column store
 * [Hbase](z_Column-Store/hbase/README.md)
-
-### Document store
+### Document Store
 * MongoDB
-
 ### Graph DBMS
-
 ### Time Series DBMS
 
 ## [SQL](db-SQL/README.md)
