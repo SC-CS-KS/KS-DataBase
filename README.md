@@ -28,7 +28,8 @@
 * JPA
 ### Framework
 #### ORM
-* [Mybatis](db-dev/mybatis/README.md)
+* [Mybatis](db-dev/ORM/mybatis/README.md)
+* [jOOQ](https://segmentfault.com/a/1190000010415384?utm_source=tag-newest)
 * Sharding
 
 ## Utils
