@@ -35,8 +35,6 @@
 ### [jOOQ](https://segmentfault.com/a/1190000010415384?utm_source=tag-newest)
 ### Sharding
 
-# Utils
-
 # [HA](db-HA/README.md)
 
 # Resources

@@ -28,7 +28,6 @@ Table of Contents
          * [<a href="db-dev/ORM/mybatis/README.md">Mybatis</a>](#mybatis)
          * [<a href="https://segmentfault.com/a/1190000010415384?utm_source=tag-newest" rel="nofollow">jOOQ</a>](#jooq)
          * [Sharding](#sharding)
-   * [Utils](#utils)
    * [<a href="db-HA/README.md">HA</a>](#ha)
 
 
