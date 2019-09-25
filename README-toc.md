@@ -4,18 +4,19 @@
 # [DB System](db-system/README.md)
 
 # [DB Model](db-model/README.md)
-
 ## RDBMS
-### [MySQL](https://github.com/SunnnyChan/knowledge-Sys-of-MySQL)
+### [MySQL](KS-MySQL/README.md)
 ### [MariaDB](https://www.tuicool.com/articles/fUniAbQ)
 
-## Key-value store
+## Key-Value Store
 ### [Redis](z_KV/redis/README.md)
+#### Codis
 
-## [Search Engine](https://github.com/SunnnyChan/knowledge-Sys-of-SE)
+## [Search Engine](https://github.com/SC-CS-KS/KS-Internet/tree/master/KS-SearchE)
+### ElasticSearch
 
 ## Wide column store
-### [Hbase](z_Column-Store/hbase/README.md)
+### [Hbase](KS-Hbase/README.md)
 
 ## Document Store
 ### MongoDB
@@ -26,14 +27,13 @@
 # [SQL](db-SQL/README.md)
 
 # Development
-## [JDBC](/db-dev/jdbc/README.md)
+## [JDBC](/db-dev/JDBC/README.md)
 ## [Connection-Pool](/db-dev/CP/README.md)
-## JPA
-
+## [JPA](/db-dev/JPA.md)
 ## ORM
 ### [Mybatis](db-dev/ORM/mybatis/README.md)
 ### [jOOQ](https://segmentfault.com/a/1190000010415384?utm_source=tag-newest)
-### Sharding
+## [Sharding](db-dev/ORM/mybatis/README.md)
 
 # [HA](db-HA/README.md)
 
