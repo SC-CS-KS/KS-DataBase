@@ -1,5 +1,6 @@
 # Database
 
+[![License](https://img.shields.io/badge/license-Apache%202-4EB1BA.svg)](https://www.apache.org/licenses/LICENSE-2.0.html)
 
 Table of Contents
 =================
@@ -9,7 +10,7 @@ Table of Contents
    * [<a href="db-system/README.md">DB System</a>](#db-system)
    * [<a href="db-model/README.md">DB Model</a>](#db-model)
       * [RDBMS](#rdbms)
-         * [<a href="KS-MySQL/README.md">MySQL</a>](#mysql)
+         * [<a href="https://github.com/SC-CS-KS/KS-MySQL">MySQL</a>](#mysql)
          * [<a href="https://www.tuicool.com/articles/fUniAbQ" rel="nofollow">MariaDB</a>](#mariadb)
       * [Key-Value Store](#key-value-store)
          * [<a href="z_KV/redis/README.md">Redis</a>](#redis)

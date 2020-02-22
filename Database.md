@@ -5,7 +5,7 @@
 
 # [DB Model](db-model/README.md)
 ## RDBMS
-### [MySQL](KS-MySQL/README.md)
+### [MySQL](https://github.com/SC-CS-KS/KS-MySQL)
 ### [MariaDB](https://www.tuicool.com/articles/fUniAbQ)
 
 ## Key-Value Store
@@ -36,8 +36,3 @@
 ## [Sharding](db-dev/ORM/mybatis/README.md)
 
 # [HA](db-HA/README.md)
-
-# Resources
-* [DB-Engines Ranking](https://db-engines.com/en/ranking)
-* [数据库学习资源](https://yq.aliyun.com/articles/37308?spm=a2c4e.11155435.0.0.76751373Z8lEnY)
-
