@@ -1,19 +1,18 @@
 # What Is DB
-```md
+
 1990年代开始，关系型数据库（RDBMS）成为主流。
 
 从实际应用的角度看，有两点最受关注：
 		内部以关系模型存储数据，对外支持ANSI SQL接口
 		支持事务管理ACID特性，尤其是强一致性
 而后出现的各种“分布式数据库”，大多都是在这两点上做权衡以交换其他方面的能力。
-```
+
 
 ## Classify
-```md
+
 架构
 	Distributed DB
-```
-```md
+
 数据逻辑结构
 	RDBMS
 		MySql
@@ -25,8 +24,7 @@
 		比较
 			HBase Vs Redis
 	NewSql
-```
-```md
+
 数据存储结构
 	行式数据库
 		
@@ -42,8 +40,7 @@
 			Oracle
 				DB12c In-Memory
 				TimesTen
-```
-```md
+
 Storage Engine
 	Hash
 		基于(内存中)的Hash
@@ -71,10 +68,9 @@ Storage Engine
 					版本1.2能够支持billion级别的数据量
 					Leveldb是单进程的服务，而且它只是一个 C/C++ 编程语言的库, 不包含网络服务封装
 			RocksDB
-```
 
 ## Utility
-```md
+
 OLTP
 OLAP
 	参考大数据分析
@@ -90,4 +86,3 @@ OLPP
 			使用机器学习模型，可以预测客户即将采取何种行动。
 		预测维护
 			使用机器学习模型，预测现场设备何时可能出现停机故障。
-```
