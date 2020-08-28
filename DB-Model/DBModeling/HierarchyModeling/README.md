@@ -1,4 +1,5 @@
-# Hierarchy Modeling
+# Hierarchy Modeling  
+
 * 树形聚合Tree Aggregation
 
 树形或是任意的图（需反规格化）可以被直接打成一条记录或文档存放，当树形结构被一次性取出时这会非常有效率。
