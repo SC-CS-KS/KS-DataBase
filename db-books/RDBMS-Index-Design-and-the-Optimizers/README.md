@@ -5,7 +5,7 @@ By Tapio Lahdenma ̈ki, Michael Leach
 Reading Note Start : 2018-12-07
 ```
 
-## Chapters
+## Chapters  
 
 ### [01 - Introduction]
 ### [02 - Table and Index Organization 表和索引结构]
